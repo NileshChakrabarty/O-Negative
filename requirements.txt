@@ -1,0 +1,23 @@
+# RaktSetu — Python Dependencies
+# Install: pip install -r requirements.txt
+
+# Web Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+python-dotenv>=1.0.0
+
+# LLM Integration
+google-genai>=1.0.0
+
+# RAG & Embeddings
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Database
+psycopg2-binary>=2.9.0
+
+# HTTP Client
+requests>=2.28.0
+
+# Data Validation (included with FastAPI)
+pydantic>=2.0.0
